@@ -37,14 +37,14 @@ Consider using a stack or recursion to help rearrange elements.
 You may need one or more temporary data structures to store
 queue elements during the reorganization process.
 '''
-from Fila import Fila # importing the queue class
+from Queue import Queue # importing the queue class
 
 def reorganize_queue(queue): # defining the function to reorganize the queue
     if queue.is_empty():
         return
 
     width = 0
-    tmp_queue = Fila()
+    tmp_queue = Queue()
 
     while not queue.is_empty(): # discovering the queue's width
         tmp_queue.push(queue.pop())
@@ -64,7 +64,7 @@ def reorganize_queue(queue): # defining the function to reorganize the queue
         print(queue.pop(), end = " ")
 
 if __name__ == '__main__': # callig the function to reorganize and passing a queue as argument!
-    queue = Fila()
+    queue = Queue()
 
     for i in range(1,7):
         queue.push(i)
