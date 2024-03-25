@@ -10,7 +10,7 @@ This is a guide to set up and run the Python APP.
 
 Make sure you have the following installed on your system:
 
-1. Python 3 or greater
+1. Python 3 or higher
 2. Git (optional, for cloning the repository)
 
 ## Configuration
