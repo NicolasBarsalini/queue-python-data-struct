@@ -25,4 +25,10 @@ Make sure you have the following installed on your system:
 
 ## Execution
 
+Linux:
+
        python3 ref3.py
+
+Windows:
+
+       python ref3.py
